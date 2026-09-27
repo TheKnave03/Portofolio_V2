@@ -50,7 +50,7 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
           
           <img
-            src="/Photo.jpeg"
+            src="/profile-1.png"
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
             loading="lazy"
@@ -125,7 +125,7 @@ const AboutPage = () => {
       const storedProjects = JSON.parse(localStorage.getItem("projects") || "[]");
       const storedCertificates = JSON.parse(localStorage.getItem("certificates") || "[]");
       
-      const startDate = new Date("2021-11-06");
+      const startDate = new Date("2023-11-06");
       const today = new Date();
       const experience = today.getFullYear() - startDate.getFullYear() -
         (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
@@ -229,7 +229,7 @@ const AboutPage = () => {
                 data-aos-duration="1300"
                 itemProp="name"
               >
-                Eki Zulfar Rachman
+                As Ad Diaz Somadi
               </span>
             </h2>
             
@@ -238,7 +238,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-        Saya adalah mahasiswa Teknik Informatika yang berfokus pada pengembangan Front-End. 
+        Saya adalah pekerja Freelance yang berfokus pada pengembangan Front-End. 
 Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.
                   </p>
 

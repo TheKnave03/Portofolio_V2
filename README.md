@@ -2,9 +2,9 @@
 
 Hello everyone\! 👋
 
-Let me introduce myself, I'm **Eki Zulfar Rachman**. On this occasion, I'd like to share the portfolio website project that I've developed. built with React and Supabase, featuring a public-facing site and an admin dashboard.
+Let me introduce myself, I'm **As Ad Diaz Somadi**. On this occasion, I'd like to share the portfolio website project that I've developed. built with React and Supabase, featuring a public-facing site and an admin dashboard.
 
-**Live Demo:** [https://ekizr.com](https://ekizr.com)
+**Live Demo:** [https://diaz-boyas.vercel.app/](https://diaz-boyas.vercel.app/)
 
 ---
 
@@ -42,8 +42,8 @@ This project is built using modern web technologies:
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/EkiZR/Portofolio_V5.git
-cd Portofolio_V5
+git clone https://github.com/TheKnave03/Portofolio_V2.git
+cd Portofolio_V2
 npm install
 ```
 
@@ -269,7 +269,7 @@ Go to **Table Editor → portfolio_comments → Enable Realtime**.
 
 ```sql
 INSERT INTO public.profiles (id, username, role)
-VALUES ('USER_UUID', 'eki', 'admin');
+VALUES ('USER_UUID', 'your_username', 'admin');
 ```
 
 ### 7. Run Locally
@@ -314,6 +314,6 @@ Upload the contents of the `dist/` folder to your hosting provider.
 **Eki Zulfar Rachman**  
 Website: [eki.my.id](https://ekizr.com) · GitHub: [EkiZR](https://github.com/EkiZR)
 
-Thanks to [LottieFiles](https://lottiefiles.com/free-animation/coding-NWhbxMOVgP) and Claude.
+Thanks to [LottieFiles](https://lottiefiles.com/free-animation/coding-NWhbxMOVgP) ,claude, and Bang eki.
 
 ⭐ If this project helped you, consider giving it a star on GitHub!
